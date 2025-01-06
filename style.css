@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #000000;
+}
+
+.header {
+  height: 60vh;
+}
+
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 22px;
+  border-bottom: 1.5px solid #66666679;
+}
+.right a {
+  padding-left: 10px;
+}
+
+.logo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #502314;
+  font-size: 28px;
+}
+
+/* Middle */
+
+.middle {
+  width: 80%;
+  display: flex;
+  height: 60vh;
+  margin: 15vh auto;
+}
+
+.middle .left {
+  margin-right: 50px;
+  width: 40%;
+  background-color: #ffffff;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.middle .left h1 {
+  margin-top: 20px;
+  font-family: fantasy;
+  font-size: 4rem;
+  font-weight: 570;
+  color: #502314;
+  width: 75%;
+}
+
+.middle .left h1 sup {
+  color: #502314;
+}
+
+.middle .right {
+  width: 60%;
+  background-image: url("/Img/middle.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle .left button {
+  margin-top: 10px;
+  width: 70%;
+  height: 7vh;
+  border-radius: 20px;
+}
+
+.orange,
+.orange i {
+  background-color: #d62300;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.white {
+  background-color: #ffffff;
+  color: #502314;
+  font-weight: 600;
+  border: 1px solid #502314;
+}
+.white i {
+  color: #502314;
+}
+
+.grid {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: auto;
+  color: #502314 ;
+}
+
+.card {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card h5 {
+    color: #502314 ;
+    font-weight: bold;
+}
+
+.card p {
+    color: #502314 ;
+    font-size: 14px;
+}
+
+.card a{
+    margin-top: 10px;
+    text-align: center;
+    float: right;
+    width: 30%;
+    height: 30px;
+    border-radius: 20px;
+    color: #502314 ;
+    border: 1px solid #502314;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card a:hover{
+    background-color: #502314 ;
+    color: #ffffff;
+}

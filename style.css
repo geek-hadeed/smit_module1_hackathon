@@ -57,11 +57,12 @@
 
 .middle .left h1 sup {
   color: #502314;
+  font-size: 18px;
 }
 
 .middle .right {
   width: 60%;
-  background-image: url("Img/middle.avif");
+  background-image: url("/Img/middle.avif");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 10px;
@@ -98,43 +99,54 @@
 .grid {
   width: 70%;
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
   flex-wrap: wrap;
   gap: 10px;
   margin: auto;
-  color: #502314 ;
+  color: #502314;
 }
 
 .card {
-    width: 100%;
-    border-radius: 10px;
-    overflow: hidden;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .card h5 {
-    color: #502314 ;
-    font-weight: bold;
+  color: #502314;
+  font-weight: bold;
 }
 
 .card p {
-    color: #502314 ;
-    font-size: 14px;
+  color: #502314;
+  font-size: 14px;
 }
 
-.card a{
-    margin-top: 10px;
-    text-align: center;
-    float: right;
-    width: 30%;
-    height: 30px;
-    border-radius: 20px;
-    color: #502314 ;
-    border: 1px solid #502314;
-    font-size: 14px;
-    font-weight: bold;
+.card a {
+  margin-top: 10px;
+  text-align: center;
+  float: right;
+  width: 30%;
+  height: 30px;
+  border-radius: 20px;
+  color: #502314;
+  border: 1px solid #502314;
+  font-size: 14px;
+  font-weight: bold;
 }
 
-.card a:hover{
-    background-color: #502314 ;
-    color: #ffffff;
+.card a:hover {
+  background-color: #502314;
+  color: #ffffff;
+}
+
+.nav-bottom {
+  background-color: #ffffff;
+  height: 60px;
+  align-items: center;
+  color: #502314;
+}
+
+.nav-bottom a i {
+  color: #502314;
 }
